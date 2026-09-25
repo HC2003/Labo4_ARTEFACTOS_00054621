@@ -16,7 +16,7 @@ Adafruit_SH1106G display(
 
 const int TOUCH_PIN = 4; 
 
-const int UMBRAL_TOUCH = 30; 
+const int UMBRAL_TOUCH = 300; 
 
 void setup() {
 

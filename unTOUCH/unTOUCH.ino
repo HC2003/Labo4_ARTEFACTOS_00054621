@@ -46,7 +46,7 @@ void loop() {
   if (valorTouch < UMBRAL_TOUCH) {
 
     display.setCursor(15, 28);
-    display.println("TOQUE DETECTADO HEBER CANALES 00054621!");
+    display.println("Toque detectado!");
 
     display.fillCircle(105, 52, 5, SH110X_WHITE);
   }
